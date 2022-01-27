@@ -154,12 +154,12 @@ a:focus{
   width: 635px;
   margin-right: 30px;
   font-family: var(--font-family) ;
-font-style: normal;
-font-weight: bold;
-font-size: 100px;
-line-height: 100px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 100px;
+  line-height: 100px;
 
-color: var(--text-color) ;
+  color: var(--text-color) ;
 }
 
 .site-hero-div{
@@ -179,14 +179,14 @@ color: var(--text-color) ;
   margin-right: auto;
   margin-bottom: 79px;
   margin-left: 0;
-width: 50px;
-height: 4px;
-background-color: var(--hero-hr-bgc) ;
+  width: 50px;
+  height: 4px;
+  background-color: var(--hero-hr-bgc) ;
 
 }
 
 .site-hero-text {
-margin: 0;
+  margin: 0;
   font-family: var(--font-family) ;
   font-style: normal;
   font-weight: 600;
@@ -210,26 +210,26 @@ margin: 0;
 .features {
   display: flex;
   align-items: start;
-justify-content: space-between;
+  justify-content: space-between;
   padding: 140px 165px;
 
   background-color: var(--features-bgc) ;
   position: relative;
 }
 .line-heading-div {
-display: flex;
-flex-direction: column;
-margin-right: 125px;
-width: 445px;
+  display: flex;
+  flex-direction: column;
+  margin-right: 125px;
+  width: 445px;
 }
 .features-line {
   margin-top: 0;
   margin-right: auto;
   margin-bottom: 54px;
   margin-left: 0;
-width: 50px;
-height: 4px;
-background-color: var(--features-hr-bgc) ;
+  width: 50px;
+  height: 4px;
+  background-color: var(--features-hr-bgc) ;
 }
 .features-heading {
   font-family: var(--font-family) ;
@@ -250,18 +250,18 @@ background-color: var(--features-hr-bgc) ;
 
 }
 .features-item-div{
-display: flex;
-flex-direction: column;
-padding: 0;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
 }
 .features-item-img {
   display: block;
- margin-top: 0;
- margin-right: 23px;
- margin-bottom: 0;
- margin-left: 0;
- width: 72px;
- height: 72px;
+  margin-top: 0;
+  margin-right: 23px;
+  margin-bottom: 0;
+  margin-left: 0;
+  width: 72px;
+  height: 72px;
 }
 .features-item-heading {
   padding: 0;
@@ -297,9 +297,9 @@ padding: 0;
 /* REVIEWS */
 
 .reviews {
-padding: 140px 165px;
-background-color: var(--reviews-bgc) ;
-position: relative;
+  padding: 140px 165px;
+  background-color: var(--reviews-bgc) ;
+  position: relative;
 }
 .reviews-heading {
   margin-top: 0;
@@ -346,7 +346,7 @@ position: relative;
 
   text-align: center;
   color: var(--text-color) ;
-z-index: 1;
+  z-index: 1;
 }
 .users-name {
   margin-top: 0;
@@ -377,7 +377,7 @@ z-index: 1;
 .user-img {
   display: block;
   margin: 0;
-border-radius:50%;
+  border-radius:50%;
   border: 2px solid #C4FFFE;
 }
 
