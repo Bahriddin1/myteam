@@ -10,7 +10,11 @@
   --features-heading-color:#F67E7E;
   --reviews-bgc:#004047;
   --user-name-color:#79C8C7;
+  --interest-bgc: #F67E7E;
+  --interest-color:#012F34;
+  --footer-bgc:#002529;
   --font-family:"Livvic"
+
 }
 
 /* FONTS */
@@ -390,4 +394,124 @@ a:focus{
   position: absolute;
   left: 0;
   top: 0;
+}
+
+/* INTEREST */
+
+.interest {
+  padding: 76px 260px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+
+  background-color: var(--interest-bgc) ;
+}
+.interest-img {
+  left: 0;
+  top: 62px;
+  position: absolute;
+
+}
+.interest-heading {
+  margin: 0;
+  font-family: var(--font-family) ;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 48px;
+
+  color:var(--interest-color);
+}
+.interest-button {
+  padding-top: 11px;
+  padding-right: 33px;
+  padding-bottom: 11px;
+  padding-left: 33px;
+  margin: 0;
+  font-family: var(--font-family) ;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+  border: 2px solid var(--interest-color);
+  box-sizing:border-box;
+  border-radius: 24px;
+  color: var(--interest-color) ;
+  text-decoration: none;
+
+}
+
+/* FOOTER */
+
+.site-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 48px 165px;
+  background-color: var(--footer-bgc) ;
+}
+.footer-link-list {
+  display: flex;
+  flex-direction: column;
+}
+.site-footer-logo {
+margin-top: 0;
+margin-bottom: 25px;
+}
+.footer-logo-img {
+width: 160px;
+height: 40px;
+}
+.footer-nav {
+  padding: 0;
+  margin: 0;
+}
+
+.footer-nav-link:not(:last-child) {
+margin-right: 40px;
+}
+.site-footer-text {
+  width: 445px;
+  font-family: var(--font-family) ;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  /* or 167% */
+  color: var(--text-color) ;
+  opacity: 0.6;
+}
+
+
+.social-networks-list {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 60px;
+}
+
+.social-networks-link{
+  display: block;
+}
+
+.social-networks-link:not(:last-child){
+  margin-right: 16px;
+}
+
+.social-networks-img {
+  display: block;
+  width: 24px;
+  height: 24px;
+}
+.reserved-date-info {
+  font-family: var(--font-family) ;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  /* identical to box height, or 167% */
+
+  text-align: right;
+  color: var(--text-color) ;
+  opacity: 0.6;
 }
